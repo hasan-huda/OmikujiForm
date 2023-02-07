@@ -14,7 +14,7 @@
 				<h1>Here's Your Omikuji!</h1>
 				
 			</div>
-			<div class="card-body">
+			<div class="card-body bg-primary ">
 				<p>In <%String number = (String)session.getAttribute("number");out.print(number);%>
 				years, you will live in <%String city = (String)session.getAttribute("city");out.print(city);%> with 
 				<%String name = (String)session.getAttribute("name");out.print(name);%> as your roommate, 
